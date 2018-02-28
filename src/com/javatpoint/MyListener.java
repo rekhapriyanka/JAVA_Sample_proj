@@ -6,7 +6,7 @@ public class MyListener implements ServletContextListener{
 
 	public void contextInitialized(ServletContextEvent arg0) {
 		
-		Connection con=null;
+		/*Connection con=null;*/
 	try{
 		ResultSet rs;
 		Class.forName("oracle.jdbc.driver.OracleDriver");
